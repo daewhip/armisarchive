@@ -1,0 +1,118 @@
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+
+    scrollbar-width: none; /* hide scrollbar */
+    -ms-overflow-style: none; /* hide scrollbar */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+body {
+    background-color: black;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sixtyfour Convergence";
+    color: white;
+}
+
+h2, h3 {
+    font-family: Caveat;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-family: Caveat;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.talents{
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.credits {
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 10px; */
+    padding: 10px;
+    width: 150px;
+    justify-content: space-evenly;
+    text-align: center;
+    /* background-color: gray; */
+}
+
+.credits-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.octavio{
+    color:rgb(28, 68, 154);
+}
+
+.ruze{
+    color: rgb(230,0,18);
+}
+
+.jurard{
+    color: rgb(56,54,53);
+}
+
+.goldbullet{
+    color: rgb(10,100,99);
+}
+
+.default {
+    color: white;
+}
